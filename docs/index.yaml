@@ -1,0 +1,76 @@
+apiVersion: v1
+entries:
+  mariadb-galera:
+  - apiVersion: v1
+    appVersion: 10.3.17
+    created: "2020-09-05T11:16:40.874625383+08:00"
+    description: MariaDB Galera is a multi-master database cluster solution for synchronous
+      replication and high availability.
+    digest: 9d54c037a1d2b6daa81faedb6e8ad7e40640d9b94795d6d47cb1a665ad76dd4e
+    home: https://mariadb.org
+    icon: https://bitnami.com/assets/stacks/mariadb-galera/img/mariadb-galera-stack-220x234.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    - galera
+    - percona
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mariadb-galera
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mariadb-galera
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - https://ken-zk.github.io/mbcharts/mariadb-galera-10.3.17.tgz
+    version: 10.3.17
+  rabbitmq-ha:
+  - apiVersion: v1
+    appVersion: 3.7.15
+    created: "2020-09-05T11:16:40.877996342+08:00"
+    description: Highly available RabbitMQ cluster, the open source message broker
+      software that implements the Advanced Message Queuing Protocol (AMQP).
+    digest: c6dd74653c7aa35057fe389ebb7a3af9d609f219d5f5427591ddb11ea1995dc8
+    home: https://www.rabbitmq.com
+    icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
+    keywords:
+    - rabbitmq
+    - message queue
+    - AMQP
+    - AMQPS
+    - MQTT
+    - STOMP
+    maintainers:
+    - name: steven-sheehy
+    name: rabbitmq-ha
+    sources:
+    - https://github.com/rabbitmq/rabbitmq
+    - https://github.com/docker-library/rabbitmq
+    urls:
+    - https://ken-zk.github.io/mbcharts/rabbitmq-ha-3.7.15.tgz
+    version: 3.7.15
+  redis:
+  - apiVersion: v1
+    appVersion: 5.0.7
+    created: "2020-09-05T11:16:40.891107378+08:00"
+    deprecated: true
+    description: DEPRECATED Open source, advanced key-value store. It is often referred
+      to as a data structure server since keys can contain strings, hashes, lists,
+      sets and sorted sets.
+    digest: 3ffadf7aa9ce0bb64adba218b242eb2c32be82ae5347263f510fc7e0dc355727
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - https://ken-zk.github.io/mbcharts/redis-5.0.7.tgz
+    version: 5.0.7
+generated: "2020-09-05T11:16:40.872303341+08:00"
